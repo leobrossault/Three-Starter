@@ -30,7 +30,7 @@ class Scene {
 	render() {
 		this.renderer.autoClear = false;
 		this.renderer.clear();
-		this.renderer.render(this.scene, this.camera, this.light);
+		this.renderer.render(this.scene, this.camera);
 	}
 }
 exports.default = Scene;
